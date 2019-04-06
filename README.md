@@ -1,0 +1,2 @@
+# whoisd
+Simple WHOIS daemon
