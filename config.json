@@ -1,0 +1,27 @@
+{
+    "header": "*** FOUND THE FOLLOWING INFORMATION ***",
+    "footer": "*** END TRANSMISSION ***",
+    "entries": [
+        {
+            "!domain": "red.com",
+            "admin": "Rojo Cardinal",
+            "ip": "11.22.33.44",
+            "nameserver1": "birds.com",
+            "!nameserver2": "rainbow.org"
+        },
+        {
+            "!domain": "green.net",
+            "admin": "Verde Condor",
+            "ip": "5.6.7.8",
+            "!nameserver1": "birds.com",
+            "!nameserver2": "rainbow.org"
+        },
+        {
+            "!domain": "blue.com",
+            "!admin": "Azul Eagle",
+            "ip": "123.123.123.1",
+            "!nameserver1": "colors.com",
+            "!nameserver2": "rainbow.org"
+        }
+    ]
+}
