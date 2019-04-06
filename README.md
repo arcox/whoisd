@@ -7,7 +7,7 @@ A WHOIS daemon inspired by the authors of http://dan.drydog.com/swhoisd/
 - Entry fields starting with the "!" character indicate searchable data.  All such "exclaimed" fields that match the query will return the entire record in the results.
 
 For example, when using the provided example JSON:
-
+```
 QUERY:  com
 RESULT:
 *** FOUND THE FOLLOWING INFORMATION ***
@@ -47,4 +47,4 @@ nameserver1: birds.com
 nameserver2: rainbow.org
 
 *** END TRANSMISSION ***
-
+```
