@@ -80,5 +80,5 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as e:
-        print("Encoutered exception: {}".format(e))
+        print("Encountered exception: {}".format(e))
 
