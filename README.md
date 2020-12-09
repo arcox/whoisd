@@ -2,8 +2,8 @@
 A WHOIS daemon inspired by the authors of http://dan.drydog.com/swhoisd/
 
 - Written in Python 3
-- Binds to all interfaces and listens on port 43
-- The config.json file is read only during startup.  Must restart the daemon to pickup changes.
+- Simple configuration in the server.conf JSON file
+- The data.json file is read only during startup.  Must restart the daemon to pickup changes.
 - Entry fields starting with the "!" character indicate searchable data.  All such "exclaimed" fields that match the query will return the entire record in the results.
 
 For example, when using the provided example JSON:
